@@ -69,13 +69,14 @@ article {
   overflow-x: scroll;
 }
 .opitions {
-  background-color: chocolate;
+  background-color: #ffffff;
   margin-top: 13px;
   margin-left: 16px;
   height: 216px;
   width: 172px;
   padding-right: 14px;
   border-radius: 9px;
+  box-shadow: 0px 4px 4px 0px #00000000;
 }
 .opitions img {
   width: 144px;
@@ -84,20 +85,70 @@ article {
   margin-left: 14px;
   border-radius: 4px;
 }
+.opitions__bebidas img {
+  width: 144px;
+  height: 84px;
+  margin-top: 18px;
+  margin-left: 14px;
+  border-radius: 4px;
+}
+.opitions__bebidas {
+  background-color: #ffffff;
+  margin-top: 13px;
+  margin-left: 16px;
+  height: 216px;
+  width: 172px;
+  padding-right: 14px;
+  border-radius: 9px;
+  box-shadow: 0px 4px 4px 0px #00000000;
+}
+.opitions__sobremesas img {
+  width: 144px;
+  height: 82px;
+  margin-top: 18px;
+  margin-left: 14px;
+  border-radius: 4px;
+}
+.opitions__sobremesas {
+  background-color: #ffffff;
+  margin-top: 13px;
+  margin-left: 16px;
+  height: 216px;
+  width: 172px;
+  padding-right: 14px;
+  border-radius: 9px;
+  box-shadow: 0px 4px 4px 0px #00000000;
+}
 .legendas {
   margin-left: 15px;
 }
 .legendas h1 {
-  background-color: crimson;
+  background-color: #ffffff;
   margin-top: 8px;
+  font-family: 'roboto';
+  font-weight: 700;
+  color: #333333;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 18.75px;
 }
 .legendas h3 {
-  background-color: darkkhaki;
+  background-color: #ffffff;
   margin-top: 4px;
+  font-family: 'roboto';
+  font-weight: 300;
+  color: #a6a6a6;
+  font-size: 15px;
+  line-height: 17.58px;
 }
 .legendas h2 {
-  background-color: darkturquoise;
+  background-color: #ffffff;
   margin-top: 5px;
+  font-family: 'roboto';
+  font-weight: 400;
+  font-style: normal;
+  line-height: 18.75px;
+  color: #000000;
 }
 .seção__2 {
   background-color: #eeeeee;
@@ -115,7 +166,7 @@ article {
   margin-bottom: 17px;
 }
 .fecharPedido {
-  background-color: hotpink;
+  background-color: #ffffff;
   height: 92px;
   display: flex;
   justify-content: center;
@@ -128,16 +179,47 @@ article {
   z-index: 1;
 }
 .apertar {
-  background-color: yellow;
+  background-color: #cbcbcb;
   height: 61px;
   padding-top: 8px;
-  padding-left: 90px;
+  padding-left: 73px;
   width: 324px;
   margin-left: 100px;
   margin: auto;
   margin-bottom: 20px;
   border-radius: 50px;
 }
+.apertar h4 {
+  font-family: 'roboto';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23.44px;
+  color: #ffffff;
+}
+.bebidas .opitions {
+  height: 202px;
+}
 .sobremesa {
   margin-bottom: 95px;
+}
+.sobremesa .pedidos {
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: nowrap;
+  overflow-x: scroll;
+}
+.sobremesa .opitions {
+  width: 172px;
+}
+.opitions:hover {
+  box-shadow: 0px 0px 0px 5px #32b72f inset;
+}
+.opitions__bebidas:hover {
+  box-shadow: 0px 0px 0px 5px #32b72f inset;
+}
+.opitions__sobremesas:hover {
+  box-shadow: 0px 0px 0px 5px #32b72f inset;
+}
+.apertar:hover {
+  background-color: #32b72f;
 }
