@@ -86,6 +86,7 @@ article {
   left: 0;
   width: 100vw;
   bottom: 0;
+  z-index: 1;
 }
 .apertar {
   background-color: yellow;
@@ -97,4 +98,7 @@ article {
   margin: auto;
   margin-bottom: 20px;
   border-radius: 50px;
+}
+.sobremesa {
+  margin-bottom: 99px;
 }
