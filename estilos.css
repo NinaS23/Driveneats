@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+}
+nav {
+  background-color: #cf2b2b;
+  position: fixed;
+  height: 92px;
+  width: 100vw;
+  /*vai ter sombreado aqui!*/
+  padding-left: 21px;
+  box-shadow: 0px 4px 4px 0px #00000040;
+  top: 0;
+  left: 0;
+}
+.topo {
+  background-color: seagreen;
+
+  margin-top: 7px;
+}
+.subtopo {
+  background-color: rgb(172, 25, 74);
+}
+article {
+  background-color: plum;
+}
+.container {
+  background-color: cadetblue;
+}
+
+.seção {
+  background-color: orange;
+  margin-top: 120px;
+}
+.pedidos {
+  background-color: #0000ff;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: nowrap;
+  overflow-x: scroll;
+}
+.opitions {
+  background-color: chocolate;
+  margin-top: 13px;
+  margin-left: 16px;
+  height: 216px;
+  width: 172px;
+  padding-right: 14px;
+  border-radius: 9px;
+}
+.opitions img {
+  width: 144px;
+  height: 82px;
+  margin-top: 18px;
+  margin-left: 14px;
+  border-radius: 4px;
+}
+.legendas {
+  margin-left: 15px;
+}
+.legendas h1 {
+  background-color: crimson;
+  margin-top: 8px;
+}
+.legendas h3 {
+  background-color: darkkhaki;
+  margin-top: 4px;
+}
+.legendas h2 {
+  background-color: darkturquoise;
+  margin-top: 5px;
+}
+.seção__2 {
+  background-color: greenyellow;
+  margin-top: 27px;
+}
+.fecharPedido {
+  background-color: hotpink;
+  height: 92px;
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  position: fixed;
+  margin-top: 16px;
+  left: 0;
+  width: 100vw;
+  bottom: 0;
+}
+.apertar {
+  background-color: yellow;
+  height: 61px;
+  padding-top: 8px;
+  padding-left: 90px;
+  width: 324px;
+  margin-left: 100px;
+  margin: auto;
+  margin-bottom: 20px;
+  border-radius: 50px;
+}
