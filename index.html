@@ -24,7 +24,7 @@
         <!--aqui é onde tem as classes de comida , bebida e sobremesa-->
         <div class="pedidos">
           <!--aqui é onde tem dentro das classes , as opçoes de comida, bebida e sobremesa-->
-          <div class="opitions">
+          <div id="frango" class="opitions" onclick="escolherFrango()">
             <img src="frango-xadrez.png" alt="prato de frango" />
             <div class="legendas">
               <h1>Frango-Xadrez</h1>
@@ -34,7 +34,7 @@
             </div>
           </div>
 
-          <div class="opitions">
+          <div id="camarão" class="opitions" onclick="escolherCamarao()">
             <img src="camarão.png" alt="prato de camarão" />
             <div class="legendas">
               <h1>camarão top</h1>
@@ -44,7 +44,7 @@
             </div>
           </div>
 
-          <div class="opitions">
+          <div id="strogonoff" class="opitions" onclick="escolherStrogonoff()">
             <img src="strogonoff.png" alt="prato de strogonoff" />
             <div class="legendas">
               <h1>strogonoff topzera</h1>
@@ -63,7 +63,7 @@
         <div class="bebidas">
           <div class="pedidos">
             <!--aqui é onde tem dentro das classes , as opçoes de comida, bebida e sobremesa-->
-            <div class="opitions__bebidas">
+            <div id="limão" class="opitions__bebidas" onclick="escolherLimão()">
               <img src="limão.png" alt="suco de limão" />
               <div class="legendas">
                 <h1>suco de limão</h1>
@@ -72,7 +72,11 @@
               </div>
             </div>
 
-            <div class="opitions__bebidas">
+            <div
+              id="sprite"
+              class="opitions__bebidas"
+              onclick="escolherSprite()"
+            >
               <img src="sprite.png" alt="sprite" />
               <div class="legendas">
                 <h1>sprite geladinha</h1>
@@ -81,7 +85,11 @@
               </div>
             </div>
 
-            <div class="opitions__bebidas">
+            <div
+              id="laranja"
+              class="opitions__bebidas"
+              onclick="escolherLaranja()"
+            >
               <img src="laranjinha.png" alt="suco de laranja" />
               <div class="legendas">
                 <h1>suco de laranja</h1>
@@ -98,7 +106,11 @@
         <div class="sobremesa">
           <div class="pedidos">
             <!--aqui é onde tem dentro das classes , as opçoes de comida, bebida e sobremesa-->
-            <div class="opitions__sobremesas">
+            <div
+              id="musse"
+              class="opitions__sobremesas"
+              onclick="escolherMusse()"
+            >
               <img src="musse.png" alt="musse de maracujá" />
               <div class="legendas">
                 <h1>musse de maracujá</h1>
@@ -107,7 +119,11 @@
               </div>
             </div>
 
-            <div class="opitions__sobremesas">
+            <div
+              id="churrus"
+              class="opitions__sobremesas"
+              onclick="escolherChurrus()"
+            >
               <img src="churrus.png" alt="churrus de chocolate" />
               <div class="legendas">
                 <h1>churrus doce</h1>
@@ -116,7 +132,11 @@
               </div>
             </div>
 
-            <div class="opitions__sobremesas">
+            <div
+              id="bolinho"
+              class="opitions__sobremesas"
+              onclick="escolherBolinho()"
+            >
               <img src="bolinho.png" alt="pettit gateau" />
               <div class="legendas">
                 <h1>pettit gateau</h1>
@@ -136,5 +156,6 @@
         </div>
       </div>
     </span>
+    <script src="script.js"></script>
   </body>
 </html>
