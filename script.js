@@ -1,47 +1,48 @@
 function escolherFrango() {
-  document.getElementById('frago').estyle.borderColor = 'green'
-  document.getElementById('camarão').estyle.borderColor = 'white'
-  document.getElementById('strogonoff').estyle.borderColor = 'white'
+  document.getElementById('frango').style.borderColor = '#32B72F'
+  document.getElementById('camarão').style.borderColor = 'white'
+  document.getElementById('strogonoff').style.borderColor = 'white'
 }
 function escolherCamarao() {
-  document.getElementById('camarão').estyle.borderColor = 'green'
-  document.getElementById('frango').estyle.borderColor = 'white'
-  document.getElementById('strogonoff').estyle.borderColor = 'white'
+  document.getElementById('camarão').style.borderColor = '#32B72F'
+  document.getElementById('frango').style.borderColor = 'white'
+  document.getElementById('strogonoff').style.borderColor = 'white'
 }
 function escolherStrogonoff() {
-  document.getElementById('strogonoff').estyle.borderColor = 'green'
-  document.getElementById('frango').estyle.borderColor = 'white'
-  document.getElementById('camarão').estyle.borderColor = 'white'
+  document.getElementById('strogonoff').style.borderColor = '#32B72F'
+  document.getElementById('frango').style.borderColor = 'white'
+  document.getElementById('camarão').style.borderColor = 'white'
 }
 
 function escolherLimão() {
-  document.getElementById('limão').estyle.borderColor = 'green'
-  document.getElementById('laranja').estyle.borderColor = 'white'
-  document.getElementById('sprite').estyle.borderColor = 'white'
+  document.getElementById('limão').style.borderColor = '#32B72F'
+  document.getElementById('laranja').style.borderColor = 'white'
+  document.getElementById('sprite').style.borderColor = 'white'
 }
 function escolherSprite() {
-  document.getElementById('limão').estyle.borderColor = 'white'
-  document.getElementById('laranja').estyle.borderColor = 'white'
-  document.getElementById('sprite').estyle.borderColor = 'green'
+  document.getElementById('limão').style.borderColor = 'white'
+  document.getElementById('laranja').style.borderColor = 'white'
+  document.getElementById('sprite').style.borderColor = '#32B72F'
 }
 function escolherLaranja() {
-  document.getElementById('limão').estyle.borderColor = 'white'
-  document.getElementById('laranja').estyle.borderColor = 'green'
-  document.getElementById('sprite').estyle.borderColor = 'white'
+  document.getElementById('limão').style.borderColor = 'white'
+  document.getElementById('laranja').style.borderColor = '#32B72F'
+  document.getElementById('sprite').style.borderColor = 'white'
 }
 
 function escolherMusse() {
-  document.getElementById('musse').estyle.borderColor = 'green'
-  document.getElementById('churrus').estyle.borderColor = 'white'
-  document.getElementById('bolinho').estyle.borderColor = 'white'
+  document.getElementById('musse').style.borderColor = '#32B72F'
+  document.getElementById('churrus').style.borderColor = 'white'
+  document.getElementById('bolinho').style.borderColor = 'white'
 }
 function escolherChurrus() {
-  document.getElementById('musse').estilos.borderColor = 'white'
-  document.getElementById('churrus').estilos.borderColor = 'green'
-  document.getElementById('bolinho').estilos.borderColor = 'white'
+  document.getElementById('musse').style.borderColor = 'white'
+  document.getElementById('churrus').style.borderColor = '#32B72F'
+  document.getElementById('bolinho').style.borderColor = 'white'
 }
 function escolherBolinho() {
-  document.getElementById('musse').estyle.borderColor = 'white'
-  document.getElementById('churrus').estyle.borderColor = 'white'
-  document.getElementById('bolinho').estyle.borderColor = 'green'
+  document.getElementById('musse').style.borderColor = 'white'
+  document.getElementById('churrus').style.borderColor = 'white'
+  document.getElementById('bolinho').style.borderColor = '#32B72F'
 }
+function finalizar() {}
