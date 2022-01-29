@@ -81,5 +81,8 @@ function escolherBolinho() {
 function finalizar() {
   if (comida && bebida && sobremesa) {
     document.getElementById('terminar').style.backgroundColor = '#32B72F'
+    document.getElementById('fechar').innerHTML = 'fechar pedido'
+
+    document.getElementById('tchau').style.visibility = 'hidden'
   }
 }

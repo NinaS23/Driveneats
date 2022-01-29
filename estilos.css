@@ -211,6 +211,7 @@ article {
 .sobremesa .opitions {
   width: 172px;
 }
+
 #musse {
   border: 3px solid white;
 }
@@ -240,4 +241,7 @@ article {
 }
 #apertar {
   background-color: #cbcbcb;
+}
+#tchau {
+  visibility: visible;
 }
